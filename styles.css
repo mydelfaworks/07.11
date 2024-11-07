@@ -1,0 +1,106 @@
+/* Задание 1 */
+.sub-title {
+    color: red;
+    font-size: 24px;
+}
+
+/* ЗАДАНИЕ 2 */
+.nav-link {
+    color: green;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: blue;
+}
+
+/* ЗАДАНИЕ 3 */
+.three tr:nth-child(odd) {
+    background-color: grey;
+    color: white;
+}
+.three tr:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+/* ЗАДАНИЕ 4 */
+.box p:first-child {
+    font-weight: bold;
+}
+
+/* ЗАДАНИЕ 5 */
+.btn {
+    background-color: blue;
+    color: white;
+    border-radius: 9px;
+}
+
+/* ЗАДАНИЕ 6 */
+input {
+    background-color: grey;
+    border-width: 2px;
+}
+
+/* ЗАДАНИЕ 7 */
+.highlight {
+    font-weight: bold;
+    background-color: lightblue;
+}
+.text-container {
+    display: inline-block; /* чтоб не по всей ширине было выделение */
+}
+
+/* ЗАДАНИЕ 8 */
+.eight th {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
+
+/* ЗАДАНИЕ 9 */
+.grocery-list li{
+    color: blue;
+    margin: 15px;
+}
+
+/* ЗАДАНИЕ 10 */
+.gallery img {
+    border: 5px solid black;
+    margin: 10px;
+}
+
+/* ЗАДАНИЕ 11 */
+.menu a {
+    color: red;
+}
+.menu a:hover {
+    color: green;
+}
+
+/* ЗАДАНИЕ 12 */
+.alert p {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+.alert {
+    display: inline-block; /* чтоб не по всей ширине было выделение */
+}
+
+/* ЗАДАНИЕ 13 */
+.content * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h1 {
+    font-size: 36px;
+}
+
+/* ЗАДАНИЕ 14 */
+.card::before {
+    content: "";
+    display: inline-block;
+    background-image: url(./5390264.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
